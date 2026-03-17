@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Building2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -19,8 +19,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container nav-content">
         <Link to="/" className="brand">
-          <Building2 size={32} className="brand-icon" />
-          <span className="brand-text">Vanigan AI</span>
+          <img src="/images/logo.png" alt="Vanigan Logo" className="brand-logo" />
         </Link>
 
         {/* Desktop Menu */}

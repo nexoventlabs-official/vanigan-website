@@ -31,8 +31,8 @@
 
 .service-card:hover {
   transform: translateY(-15px);
-  border-color: rgba(139, 92, 246, 0.4);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(34, 197, 94, 0.4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .service-icon-wrapper {
@@ -52,7 +52,7 @@
 
 .service-name {
   font-size: 1.25rem;
-  color: white;
+  color: var(--text-main);
   margin-bottom: 0.5rem;
 }
 

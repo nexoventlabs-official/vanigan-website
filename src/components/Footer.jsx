@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Building2, Facebook, Twitter, Instagram, Youtube, MessageCircle } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Youtube, MessageCircle } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -10,8 +10,7 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-col brand-col">
             <Link to="/" className="brand">
-              <Building2 size={32} className="brand-icon" />
-              <span className="brand-text">Vanigan AI</span>
+              <img src="/images/logo.png" alt="Vanigan Logo" className="brand-logo" />
             </Link>
             <p className="footer-desc">
               India's Leading AI-Powered Business Intelligence Platform. 

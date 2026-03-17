@@ -11,10 +11,10 @@
 
 .navbar.scrolled {
   padding: 1rem 0;
-  background: rgba(2, 6, 23, 0.9);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--glass-border);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
 }
 
 .nav-content {
@@ -29,17 +29,10 @@
   gap: 0.5rem;
 }
 
-.brand-icon {
-  color: var(--primary);
-}
-
-.brand-text {
-  font-family: 'Outfit', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 800;
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.brand-logo {
+  height: 48px;
+  width: auto;
+  border-radius: 8px;
 }
 
 .nav-links {

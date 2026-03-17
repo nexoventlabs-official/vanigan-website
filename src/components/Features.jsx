@@ -17,7 +17,7 @@ const Features = () => {
 
             <div className="feature-list">
               <div className="feature-item glass-panel animate-fade-in">
-                <div className="feature-icon" style={{background: 'rgba(79, 70, 229, 0.2)', color: 'var(--primary)'}}>
+                <div className="feature-icon" style={{background: 'rgba(34, 197, 94, 0.2)', color: 'var(--primary)'}}>
                   <Zap size={24} />
                 </div>
                 <div className="feature-text">
